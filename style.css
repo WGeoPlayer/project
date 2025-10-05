@@ -36,6 +36,11 @@ header section {
     font-size: 20px;
 }
 
+.headerleft p{
+    color: white;
+    cursor: pointer;
+}
+
 .headerright {
     height: 100%;
     display: flex;
