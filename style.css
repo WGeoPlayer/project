@@ -5,7 +5,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -26,6 +26,7 @@ header section {
     width: 90%;
     color: white;
     text-decoration: none;
+    align-items: center;
 }
 
 .headerleft {
@@ -36,7 +37,7 @@ header section {
     font-size: 20px;
 }
 
-.headerleft p{
+.headerleft p {
     color: white;
     cursor: pointer;
 }
@@ -129,7 +130,7 @@ header a {
     font-weight: 400;
 }
 
-.demopeak h2{
+.demopeak h2 {
     font-size: 48px;
     width: 260px;
     height: 60px;
@@ -138,7 +139,7 @@ header a {
     color: black;
 }
 
-.demopeak p{
+.demopeak p {
     width: 310px;
     height: 24px;
     text-align: center;
@@ -147,7 +148,7 @@ header a {
     color: black;
 }
 
-.ayodemo{
+.ayodemo {
     width: 190px;
     height: 48px;
     background-color: black;
@@ -158,19 +159,19 @@ header a {
     cursor: pointer;
 }
 
-.hiddenofthemall{
+.hiddenofthemall {
     position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
 }
 
-.demov{
+.demov {
     border: none;
     cursor: pointer;
 }
 
-.hiddenofthemall:hover{
+.hiddenofthemall:hover {
     color: rgb(181, 189, 189);
 }
 
@@ -328,7 +329,7 @@ header a {
     border: none;
 }
 
-.pagetopage{
+.pagetopage {
     color: #19a0c9 !important;
 }
 
@@ -367,10 +368,12 @@ header a {
     color: #072136;
 }
 
-.inbpic p {
+.abbpab{
     font-size: 16px;
     line-height: 1.6em;
     color: #072136;
+    width: 645px;
+    text-align: center;
 }
 
 .inbpic button {
@@ -402,7 +405,7 @@ header a {
     margin-top: 50px auto;
 }
 
-.lolhide{
+.lolhide {
     height: 75px;
     width: 100%;
     background-color: white;
@@ -468,6 +471,7 @@ header a {
 
 .added h2 {
     font-size: 18px;
+    font-weight: 500;
 }
 
 .clients {
@@ -516,7 +520,7 @@ header a {
     text-align: center;
     padding: 50px 20px;
     width: 100%;
-    height: 651px;
+    height: 675px;
     background-color: #F7F7F7;
     position: relative;
 }
@@ -642,7 +646,7 @@ footer {
     position: relative;
 }
 
-.foothidelol{
+.foothidelol {
     height: 75px;
     width: 100%;
     background-color: #0C3C60;
@@ -813,7 +817,7 @@ select option:hover {
     color: white;
 }
 
-.times button:focus{
+.times button:focus {
     background-color: #255070;
 }
 
@@ -862,7 +866,7 @@ select option:hover {
     text-align: center;
 }
 
-.timesleft{
+.timesleft {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -870,7 +874,7 @@ select option:hover {
     width: 460px;
 }
 
-.timesright{
+.timesright {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -878,28 +882,28 @@ select option:hover {
     width: 460px;
 }
 
-.tzone1{
+.tzone1 {
     position: absolute;
     top: 115px;
     left: 0;
     font-size: 18px;
 }
 
-.tzone2{
+.tzone2 {
     position: absolute;
     top: 140px;
     left: 0;
     font-size: 18px;
 }
 
-.tzoneall{
+.tzoneall {
     position: absolute;
     top: -40px;
     left: 0;
     font-size: 18px;
 }
 
-.bbsub{
+.bbsub {
     position: absolute;
     bottom: 0;
     right: 24px;
@@ -917,12 +921,12 @@ select option:hover {
     cursor: pointer;
 }
 
-.bbsub:hover{
+.bbsub:hover {
     color: white;
     background-color: #0C3C60;
 }
 
-.frame{
+.frame {
     height: 280px;
     width: 938px;
     margin: auto;
@@ -930,7 +934,7 @@ select option:hover {
 }
 
 
-.flast{
+.flast {
     width: 100%;
     height: 377px;
     background-color: #072136;
@@ -939,7 +943,7 @@ select option:hover {
     bottom: 0;
 }
 
-.flastin1{
+.flastin1 {
     width: 33%;
     height: 377px;
     background-color: #072136;
@@ -949,17 +953,17 @@ select option:hover {
     flex-direction: column;
 }
 
-.tptoimd{
+.tptoimd {
     color: white;
     text-decoration: none;
     font-size: 20px;
     position: absolute;
-    right: 35%;
+    right: 34%;
     top: 40px;
     letter-spacing: 2px;
 }
 
-.inflast1{
+.inflast1 {
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -969,13 +973,13 @@ select option:hover {
     top: 90px;
 }
 
-.inflast1 a{
+.inflast1 a {
     color: white;
     text-decoration: none;
     font-size: 16px;
 }
 
-.flastin2{
+.flastin2 {
     width: 33%;
     height: 377px;
     background-color: #072136;
@@ -985,14 +989,14 @@ select option:hover {
     flex-direction: column;
 }
 
-.flastin2 p{
+.flastin2 p {
     font-size: 20px;
     position: absolute;
     top: 40px;
     left: 50%;
 }
 
-.inflast2{
+.inflast2 {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -1001,16 +1005,16 @@ select option:hover {
     left: 50%;
 }
 
-.inflast2 a{
+.inflast2 a {
     color: white;
     text-decoration: none;
 }
 
-.inflast2 a:hover{
-    color: rgb(140,188,219);
+.inflast2 a:hover {
+    color: rgb(140, 188, 219);
 }
 
-.flastin3{
+.flastin3 {
     width: 33%;
     height: 377px;
     background-color: #072136;
@@ -1020,14 +1024,14 @@ select option:hover {
     flex-direction: column;
 }
 
-.idkaloneig{
+.idkaloneig {
     font-size: 20px;
     position: absolute;
     top: 40px;
     left: 36%;
 }
 
-.inflast3{
+.inflast3 {
     display: flex;
     flex-direction: column;
     gap: 60px;
@@ -1036,33 +1040,33 @@ select option:hover {
     left: 36%;
 }
 
-.flasticons i{
+.flasticons i {
     font-size: 18px;
 }
 
-.inflast3 a{
+.inflast3 a {
     color: white;
 }
 
-.inflast3 p{
+.inflast3 p {
     font-size: 14px;
 }
 
-.abtmain{
+.abtmain {
     width: 100%;
     height: 900px;
     background-color: white;
     padding-top: 75px;
 }
 
-.abthidden{
+.abthidden {
     height: 1px;
     width: 100%;
     background-color: white;
     z-index: -1000;
 }
 
-.abtmain h1{
+.abtmain h1 {
     text-align: center;
     font-size: 60px;
     font-weight: 400;
@@ -1072,39 +1076,41 @@ select option:hover {
 }
 
 @keyframes about {
-    0%{
+    0% {
         top: 100px;
         opacity: 0;
     }
-    100%{
+
+    100% {
         top: 0;
         opacity: 1;
     }
 }
 
-.abtline{
+.abtline {
     display: flex;
     justify-content: center;
     gap: 1px;
     margin-top: 100px;
 }
 
-.abtline img{
+.abtline img {
     width: 629px;
     height: 634px;
     animation: abtlineimg 1s;
 }
 
-@keyframes abtlineimg{
-    0%{
+@keyframes abtlineimg {
+    0% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
 }
 
-.abtp{
+.abtp {
     width: 629px;
     height: 634px;
     display: flex;
@@ -1112,7 +1118,7 @@ select option:hover {
     padding-left: 75px;
 }
 
-.abtp p{
+.abtp p {
     width: 425px;
     letter-spacing: 1px;
     font-weight: 300;
@@ -1121,7 +1127,7 @@ select option:hover {
     position: relative;
 }
 
-.aboutfun{
+.aboutfun {
     width: 100%;
     height: 2081px;
     background-color: white;
@@ -1129,14 +1135,14 @@ select option:hover {
     position: relative;
 }
 
-.aboutfun h1{
+.aboutfun h1 {
     text-align: center;
     font-size: 38px;
     font-weight: 400;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.asdfg{
+.asdfg {
     font-size: 16px;
     line-height: 1.6em;
     text-align: center;
@@ -1145,7 +1151,7 @@ select option:hover {
     margin: 10px auto;
 }
 
-.aboutallinone{
+.aboutallinone {
     width: 1254px;
     height: 1554px;
     display: flex;
@@ -1153,7 +1159,7 @@ select option:hover {
     margin: 100px auto;
 }
 
-.abtcards{
+.abtcards {
     width: 627px;
     height: 777px;
     display: flex;
@@ -1163,29 +1169,29 @@ select option:hover {
     gap: 40px;
 }
 
-.abtcards img{
+.abtcards img {
     width: 370px;
     height: 318px;
 }
 
-.abtbox{
+.abtbox {
     width: 370px;
     display: flex;
     flex-direction: column;
 
 }
 
-.abtbox h2{
+.abtbox h2 {
     font-size: 26px;
     font-weight: 400;
 }
 
-.abtbox h3{
+.abtbox h3 {
     font-size: 18px;
     font-weight: 500;
 }
 
-.abtbox p{
+.abtbox p {
     font-size: 16px;
     line-height: 1.6em;
     font-weight: 300;
@@ -1193,7 +1199,7 @@ select option:hover {
     margin-top: 30px;
 }
 
-.aboutfun button{
+.aboutfun button {
     width: 230px;
     height: 55px;
     background-color: white;
@@ -1208,40 +1214,41 @@ select option:hover {
     transform: translate(-50%, 0);
 }
 
-.aboutfun button:hover{
+.aboutfun button:hover {
     background-color: #0C3C60;
     color: white;
 }
 
-.projectsmain{
+.projectsmain {
     width: 100%;
     height: 1634px;
     padding-top: 75px;
 }
 
-#projectsmain{
+#projectsmain {
     height: 1px;
     width: 100%;
     background-color: white;
 }
 
-.projectsmain h1{
+.projectsmain h1 {
     font-size: 60px;
     font-weight: 400;
     text-align: center;
     animation: ppph1 1s;
 }
 
-@keyframes ppph1{
-    0%{
+@keyframes ppph1 {
+    0% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
 }
 
-.projectsinmain{
+.projectsinmain {
     width: 1257px;
     height: 1284px;
     display: flex;
@@ -1250,7 +1257,7 @@ select option:hover {
     gap: 1px;
 }
 
-.inprocards{
+.inprocards {
     width: 628px;
     height: 642px;
     display: flex;
@@ -1262,74 +1269,76 @@ select option:hover {
     position: relative;
 }
 
-.proddd{
+.proddd {
     animation: procards 1.5s 0.2s;
 }
 
-@keyframes procards{
-    0%{
+@keyframes procards {
+    0% {
         top: 200px;
         opacity: 0;
     }
-    100%{
+
+    100% {
         top: 0;
         opacity: 1;
     }
 }
 
-.probox{
+.probox {
     width: 438px;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.inprocards img{
+.inprocards img {
     width: 438px;
     height: 268px;
 }
 
-.probox h2{
+.probox h2 {
     font-size: 36px;
     font-weight: 400;
 }
 
-.probox p{
+.probox p {
     width: 430px;
     line-height: 1.8em;
     font-size: 16px;
 }
 
-.plansmain{
+.plansmain {
     width: 100%;
     height: 980px;
     color: #0C3C60;
     animation: planswholemain 1.5s;
 }
 
-@keyframes planswholemain{
-    0%{
+@keyframes planswholemain {
+    0% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
 }
 
-.plansh{
+.plansh {
     font-size: 60px;
     font-weight: 400;
     text-align: center;
     margin-top: 60px;
 }
 
-.plansp{
+.plansp {
     text-align: center;
     height: 50px;
     padding: 15px 0;
 }
 
-.plansinmain{
+.plansinmain {
     width: 1476px;
     height: 675px;
     margin: auto;
@@ -1339,12 +1348,12 @@ select option:hover {
     margin-top: 60px;
 }
 
-.planscards{
+.planscards {
     display: flex;
     flex-direction: column;
 }
 
-.plansup{
+.plansup {
     width: 100%;
     height: 50%;
     display: flex;
@@ -1355,13 +1364,13 @@ select option:hover {
     position: relative;
 }
 
-.plansup h2{
+.plansup h2 {
     font-size: 20px;
     height: 42px;
     font-weight: 400;
 }
 
-.plansup h1{
+.plansup h1 {
     height: 84px;
     font-size: 70px;
     font-weight: 400;
@@ -1370,7 +1379,7 @@ select option:hover {
     position: relative;
 }
 
-.plansup span{
+.plansup span {
     font-size: 18px;
     height: 18px;
     width: 10px;
@@ -1379,20 +1388,20 @@ select option:hover {
     left: -10px;
 }
 
-.plansupP1{
+.plansupP1 {
     font-size: 14px;
     height: 40px;
     margin-top: 14px;
 }
 
-.plansupP2{
+.plansupP2 {
     font-size: 12px;
     height: 24px;
     display: flex;
     align-items: end;
 }
 
-.plansupup{
+.plansupup {
     width: 85px;
     height: 30px;
     background-color: #0C3C60;
@@ -1408,7 +1417,7 @@ select option:hover {
     font-weight: 300;
 }
 
-.plansup button{
+.plansup button {
     width: 294px;
     height: 50px;
     background-color: #0C3C60;
@@ -1420,30 +1429,30 @@ select option:hover {
     cursor: pointer;
 }
 
-.plansup button:hover{
+.plansup button:hover {
     text-decoration: underline;
 }
 
-.plansup a{
+.plansup a {
     text-decoration: none;
 }
 
-.plan2s .plansup{
+.plan2s .plansup {
     background-color: #E5E5E5;
 }
 
-.plansdown{
+.plansdown {
     width: 100%;
     height: 50%;
     border-left: 1px solid #00000033;
     border-bottom: 1px solid #00000033;
     border-right: 1px solid #00000033;
     display: grid;
-    grid-template-rows: repeat(7,42px);
+    grid-template-rows: repeat(7, 42px);
     padding: 20px;
 }
 
-.plansdown p{
+.plansdown p {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1451,13 +1460,13 @@ select option:hover {
     font-size: 14px;
 }
 
-#plansmain{
+#plansmain {
     height: 1px;
     width: 100%;
     background-color: white;
 }
 
-.plansdown i{
+.plansdown i {
     font-size: 6px;
     border: 1px solid #0C3C60;
     border-radius: 50%;
@@ -1489,6 +1498,7 @@ select option:hover {
 #plantest:checked~.likeadd {
     display: flex;
 }
+
 #plantest:checked~.peak {
     display: flex;
     flex-direction: column;
@@ -1519,7 +1529,7 @@ select option:hover {
     font-weight: 400;
 }
 
-.peak h2{
+.peak h2 {
     font-size: 32px;
     width: 440px;
     height: 80px;
@@ -1528,14 +1538,14 @@ select option:hover {
     text-align: center;
 }
 
-.peak p{
+.peak p {
     width: 440px;
     height: 24px;
     margin-bottom: 36px;
     text-align: center;
 }
 
-.ayoplans{
+.ayoplans {
     width: 100px;
     height: 40px;
     background-color: black;
@@ -1548,43 +1558,43 @@ select option:hover {
     cursor: pointer;
 }
 
-.ayoplans:hover{
+.ayoplans:hover {
     background-color: #4C4C4C;
     text-decoration: underline;
 }
 
-.pricingmain{
+.pricingmain {
     background-color: white;
     width: 100%;
     height: 637px;
     padding: 35px 0 105px 0;
 }
 
-.pricinginmain{
+.pricinginmain {
     padding: 40px;
     width: 980px;
     height: 496px;
     margin: auto;
 }
 
-.pricingtoph2{
+.pricingtoph2 {
     font-size: 32px;
     color: #868686;
     font-weight: 400;
     height: 81px;
 }
 
-.pricingfirsthr{
+.pricingfirsthr {
     margin-bottom: 38px;
     color: #868686;
 }
 
-.pricingleft{
+.pricingleft {
     width: 600px;
     height: 295px;
 }
 
-.pricingleft h1{
+.pricingleft h1 {
     display: flex;
     gap: 22px;
     font-size: 24px;
@@ -1592,22 +1602,22 @@ select option:hover {
     margin-bottom: 20px;
 }
 
-.pricingleft p{
+.pricingleft p {
     height: 48px;
     margin-bottom: 16px;
 }
 
-.pricingbut{
+.pricingbut {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.pricingbut button:hover{
+.pricingbut button:hover {
     text-decoration: underline;
 }
 
-.demobuttons1{
+.demobuttons1 {
     background-color: black;
     color: white;
     width: 291px;
@@ -1620,7 +1630,7 @@ select option:hover {
     align-items: center;
 }
 
-.demobuttons2{
+.demobuttons2 {
     background-color: white;
     color: black;
     width: 291px;
@@ -1633,24 +1643,24 @@ select option:hover {
     align-items: center;
 }
 
-.demobuttons1:hover{
+.demobuttons1:hover {
     text-decoration: underline;
 }
 
-.demobuttons2:hover{
+.demobuttons2:hover {
     text-decoration: underline;
 }
 
-.pricelogin{
+.pricelogin {
     background-color: white;
     color: black;
 }
 
-.pricingsecondhr{
+.pricingsecondhr {
     margin: 33px 0;
 }
 
-.pricingleft h2{
+.pricingleft h2 {
     display: flex;
     gap: 22px;
     font-size: 24px;
@@ -1660,7 +1670,7 @@ select option:hover {
     color: #868686;
 }
 
-.pricingright{
+.pricingright {
     width: 340px;
     height: 295px;
     display: flex;
@@ -1668,26 +1678,26 @@ select option:hover {
     justify-content: space-between;
 }
 
-.pricingbothin{
+.pricingbothin {
     width: 980px;
     height: 295px;
     display: flex;
     justify-content: space-between;
 }
 
-.pricingright h1{
+.pricingright h1 {
     font-size: 24px;
     font-weight: 400;
     height: 28px;
 }
 
-.pricingrightdiv{
+.pricingrightdiv {
     height: 52px;
     display: flex;
     flex-direction: column;
 }
 
-.pricingrightdiv h2{
+.pricingrightdiv h2 {
     font-size: 16px;
     display: flex;
     justify-content: space-between;
@@ -1695,13 +1705,13 @@ select option:hover {
     height: 24px;
 }
 
-.pricingrightdiv p{
+.pricingrightdiv p {
     font-size: 16px;
     height: 24px;
     color: #646464;
 }
 
-.pricingright h3{
+.pricingright h3 {
     height: 28px;
     font-size: 20px;
     display: flex;
@@ -1709,7 +1719,7 @@ select option:hover {
     font-weight: 400;
 }
 
-.pricingrighttop{
+.pricingrighttop {
     width: 340px;
     height: 255px;
     padding: 30px;
@@ -1719,7 +1729,7 @@ select option:hover {
     border: 1px solid rgb(0, 0, 0, 0.3);
 }
 
-.pricingrightdown{
+.pricingrightdown {
     height: 24px;
     width: 340px;
     font-size: 16px;
@@ -1728,21 +1738,21 @@ select option:hover {
     gap: 10px;
 }
 
-.pricingrightdown i{
+.pricingrightdown i {
     position: relative;
     top: 4px;
 }
 
-#demovission:checked~body{
+#demovission:checked~body {
     overflow: hidden;
 }
 
-.tools{
+.tools {
     width: 100%;
     height: 800px;
 }
 
-.toolsh1{
+.toolsh1 {
     height: 86px;
     font-size: 60px;
     font-weight: 400;
@@ -1751,7 +1761,7 @@ select option:hover {
     animation: toolsend 1s ease-in-out;
 }
 
-.toolsp{
+.toolsp {
     font-size: 15px;
     width: 680px;
     height: 58px;
@@ -1763,40 +1773,42 @@ select option:hover {
     animation: toolsp 0.75s ease-in;
 }
 
-@keyframes toolsp{
-    0%{
-        top:50px;
+@keyframes toolsp {
+    0% {
+        top: 50px;
         opacity: 0;
     }
-    100%{
+
+    100% {
         top: 0;
         opacity: 1;
     }
 }
 
-.toolsmain{
+.toolsmain {
     width: 980px;
     height: 550px;
     margin: 50px auto;
     animation: toolsend 1s ease-in;
 }
 
-@keyframes toolsend{
-    0%{
+@keyframes toolsend {
+    0% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
     }
 }
 
-.firsttools{
+.firsttools {
     width: 980px;
     height: 60px;
     padding: 20px 20px 0;
 }
 
-.secondtools{
+.secondtools {
     width: 980px;
     height: 52px;
     padding: 12px 20px 0 48px;
@@ -1804,7 +1816,7 @@ select option:hover {
     font-size: 16px;
 }
 
-.secondtools input{
+.secondtools input {
     width: 486px;
     height: 40px;
     padding: 8px 0 8px 24px;
@@ -1813,19 +1825,19 @@ select option:hover {
     border-bottom: 1px solid black;
 }
 
-.secondtools i{
+.secondtools i {
     position: relative;
     left: 24px;
 }
 
-.alltoolp{
+.alltoolp {
     font-size: 16px;
     border: none;
     background-color: transparent;
     text-align: start;
 }
 
-.toolsitems{
+.toolsitems {
     width: 100%;
     height: 56px;
     padding: 20px 20px 12px;
@@ -1834,12 +1846,12 @@ select option:hover {
     align-items: center;
 }
 
-.toolsmain hr{
+.toolsmain hr {
     width: 940px;
     margin: auto;
 }
 
-.toolcheck1{
+.toolcheck1 {
     width: 16px;
     height: 16px;
     position: relative;
@@ -1847,41 +1859,41 @@ select option:hover {
     cursor: pointer;
 }
 
-.toolp1{
+.toolp1 {
     width: 415px;
     padding: 0 0 0 60px;
     cursor: pointer;
 }
 
-.toolp2{
+.toolp2 {
     width: 123px;
     cursor: pointer;
 }
 
-.toolp3{
+.toolp3 {
     width: 85px;
     cursor: pointer;
 }
 
-.toolp4{
+.toolp4 {
     width: 85px;
     cursor: pointer;
 }
 
-.toolp5{
+.toolp5 {
     width: 123px;
 }
 
-.toolp6{
+.toolp6 {
     width: 24px;
     cursor: pointer;
 }
 
-.toolallbut:hover{
+.toolallbut:hover {
     color: #696666;
 }
 
-.toolendfnl{
+.toolendfnl {
     display: flex;
     align-items: center;
     width: 100%;
@@ -1890,7 +1902,7 @@ select option:hover {
     justify-content: space-between;
 }
 
-.toolsendin{
+.toolsendin {
     width: 415px;
     height: 47px;
     display: flex;
@@ -1898,7 +1910,7 @@ select option:hover {
     align-items: center;
 }
 
-.anothertooldiiiv{
+.anothertooldiiiv {
     width: 355px;
     height: 47px;
     display: flex;
@@ -1906,38 +1918,38 @@ select option:hover {
     justify-content: space-between;
 }
 
-.pofp1{
+.pofp1 {
     width: 100px;
     height: 20px;
     font-size: 14px;
 }
 
-.pofp2{
+.pofp2 {
     width: 355px;
     height: 23px;
 }
 
-.fa-folder{
+.fa-folder {
     font-size: 35px;
 }
 
-#tools{
+#tools {
     height: 1px;
     width: 100%;
     background-color: transparent;
 }
 
-.ppendtl1{
+.ppendtl1 {
     width: 123px;
     height: 23px;
 }
 
-.ppendtl2{
+.ppendtl2 {
     width: 85px;
     height: 23px;
 }
 
-.ppendtl3{
+.ppendtl3 {
     width: 85px;
     height: 26px;
     display: flex;
@@ -1945,22 +1957,22 @@ select option:hover {
     align-items: center;
 }
 
-.ppendtl4{
+.ppendtl4 {
     width: 123px;
     height: 28px;
 }
 
-.ppendtl5{
+.ppendtl5 {
     width: 24px;
     height: 24px;
 }
 
-.ppendtl3 .fa-star{
+.ppendtl3 .fa-star {
     position: relative;
     top: 3px;
 }
 
-.ppendtl4 .fa-circle-user{
+.ppendtl4 .fa-circle-user {
     font-size: 25px;
     color: #D8D8D8;
     background-color: #969696;
@@ -1971,14 +1983,285 @@ select option:hover {
     box-sizing: content-box;
 }
 
-.toolsendin .fa-folder{
+.toolsendin .fa-folder {
     position: relative;
     top: 3px;
     font-size: 37px;
 }
 
-.toolendfnl:hover{
+.toolendfnl:hover {
     background-color: #FAFAFA;
     cursor: pointer;
 }
 
+.hdd {
+    justify-content: space-between;
+}
+
+.hdd .fa-bars {
+    font-size: 25px;
+    display: none;
+}
+
+@media screen and (max-width:1450px) {
+    .tptoimd {
+        right: 33%;
+    }
+}
+
+@media screen and (max-width:1375px) {
+    .added h2 {
+        font-size: 16px;
+    }
+
+    .cons {
+        height: 355px;
+    }
+
+    .freecons {
+        height: 355px;
+    }
+
+    .services {
+        justify-content: space-between;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .added h2 {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .headerright {
+        display: none !important;
+    }
+
+    .hdd .fa-bars {
+        display: unset;
+    }
+
+    .tptoimd {
+        right: 30%;
+    }
+
+    .cons {
+        height: 255px;
+    }
+
+    .freecons {
+        height: 255px;
+    }
+
+    .services {
+        justify-content: space-between;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .moreinfo {
+        flex-wrap: wrap;
+        height: 800px;
+    }
+
+    .moreinfo1 {
+        gap: 25px;
+        height: 400px;
+    }
+
+    .cons {
+        flex-wrap: wrap;
+        height: 1100px;
+    }
+
+    .freecons {
+        height: 475px;
+    }
+
+    .services {
+        height: 1400px;
+    }
+
+    .added h2 {
+        font-size: 20px;
+    }
+
+    .logos {
+        flex-wrap: wrap;
+        height: 500px;
+    }
+
+    .clients {
+        height: 700px;
+        justify-content: space-between;
+    }
+
+    .fallup {
+        flex-direction: column;
+        width: 454px;
+        height: 200px;
+        margin: auto;
+    }
+
+    .falldown {
+        flex-direction: column;
+        width: 454px;
+        height: 200px;
+        margin: auto;
+    }
+
+    .iforgotlol {
+        width: 454px;
+        margin: auto;
+    }
+
+    .uforgotahh {
+        width: 454px;
+        margin: auto;
+    }
+
+    .lol {
+        width: 454px;
+    }
+
+    #fail {
+        width: 454px;
+    }
+
+    .slct {
+        width: 454px;
+        margin: auto;
+    }
+
+    form {
+        height: 1350px;
+        width: 100%;
+    }
+
+    footer {
+        height: 2250px;
+    }
+
+    .times {
+        flex-direction: column;
+        width: 460px;
+        left: 26%;
+    }
+
+    .frame {
+        margin: 50px auto 0;
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    .slides {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:985px) {
+    .cons {
+        height: 2200px;
+    }
+
+    .freecons {
+        height: 475px;
+    }
+
+    .services {
+        height: 2400px;
+    }
+}
+
+@media screen and (max-width:880px) {
+    .times {
+        left: 23%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .insideimg {
+        width: 100%;
+    }
+
+    .headerleft {
+        width: 300px;
+    }
+
+    .headerleft p {
+        width: 300px;
+    }
+
+    .times {
+        left: 23%;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .times {
+        left: 23%;
+    }
+}
+
+@media screen and (max-width:792px) {
+    .moreinfo {
+        height: 1200px;
+    }
+
+    .times {
+        left: 20%;
+    }
+}
+
+@media screen and (max-width:735px) {
+    .inlogos {
+        width: 200px;
+        height: 200px;
+    }
+
+    .inlogos img {
+        object-fit: cover;
+    }
+
+    .times {
+        left: 15%;
+    }
+}
+
+@media screen and (max-width:645px) {
+    .times {
+        left: 10%;
+    }
+
+    .abbpab {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .times {
+        left: 5%;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .insideimg2{
+        font-size: 40px;
+    }
+    .insideimg1{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .times {
+        left: 0;
+    }
+}
+
+@media screen and (max-width:508px) {
+
+}
