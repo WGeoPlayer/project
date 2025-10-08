@@ -2108,6 +2108,9 @@ select option:hover {
 #clickbar{
     height: 1px;
     width: 1px;
+    display: none;
+    position: absolute;
+    right: 75px;
 
 }
 .absolutecinema p{
@@ -2357,6 +2360,9 @@ select option:hover {
     header{
         justify-content: start;
         padding-inline-start: 10px;
+    }
+    #clickbar{
+        display: unset;
     }
 }
 
@@ -3016,6 +3022,9 @@ select option:hover {
         right: 25px;
     }
     .closeclickbar{
+        right: 25px;
+    }
+    #clickbar{
         right: 25px;
     }
 }
